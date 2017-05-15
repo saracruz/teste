@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 5%;
+}
+
+input {
+  width: 60%;
+  height: 31px;
+  font-size: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+select {
+  width: 20%;
+  height: 31px;
+  font-size: 10px;
+}
+
+button {
+  width: 15%;
+  height: 31px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10px;
+}
+/

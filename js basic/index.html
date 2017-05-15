@@ -1,0 +1,29 @@
+<style>
+  .box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    }
+</style>
+
+<div class="box" onclick="mudarCor()"></div>
+
+<button onclick="mudarCor('red')">Vermelho</button>
+<button onclick="mudarTamanho('20px')">Tamanho</button>
+<button onclick="mudarCor('purple')">Roxo</button>
+
+<script>
+  function mudarCor(cor){
+      var quadrado = document.querySelector('.box');
+
+      quadrado.style.backgroundColor = cor;
+  }
+</script>
+
+<script>
+  function mudarTamanho(tamanho){
+      var quadrado = document.querySelector('.box');
+
+      quadrado.style.width = '50px';
+      quadrado.style.height = '50px';
+</script>

@@ -1,0 +1,37 @@
+body {
+  margin: 0 auto;
+}
+
+
+section {
+
+}
+/*
+#ValeBreja {
+  width: 500px;
+  height: 500px;
+}
+*/
+
+#imagebg {
+  position: absolute;
+  opacity: 0.8;
+  z-index: -1;
+  width: 100%;
+  background-position-x: -773px;
+
+}
+
+#text {
+  position: absolute;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  color: gold;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: black;
+  align: center;
+}
